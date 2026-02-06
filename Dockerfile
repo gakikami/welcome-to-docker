@@ -18,7 +18,7 @@ RUN npm install \
     && rm -fr node_modules \
     && mkdir -p /app
 
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the app using serve command
 CMD [ "serve", "-s", "build" ]
